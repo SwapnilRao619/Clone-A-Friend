@@ -1,0 +1,21 @@
+22/01/15, 9:30 am - Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them. Learn more.
+22/01/15, 9:30 am - Jane Doe is a contact
+22/01/15, 9:31 am - John Smith: Hey Jane! How's your morning going?
+This is John, from the hiking group.
+22/01/15, 9:32 am - Jane Doe: Hi John!
+Morning is good, just having some coffee. Nice to hear from you!
+Yes, I remember. How are you?
+22/01/15, 9:33 am - John Smith: Doing well, thanks!
+Was wondering if you're free for that trail next weekend?
+22/01/15, 9:33 am - John Smith: <Media omitted>
+22/01/15, 9:34 am - Jane Doe: Oh, next weekend... I think I have plans on Saturday.
+What about Sunday?
+22/01/15, 9:35 am - John Smith: Sunday could work! What time were you thinking?
+22/01/15, 9:36 am - Jane Doe: Maybe around 10am? Gives us plenty of daylight.
+22/01/15, 9:37 am - Jane Doe: Or earlier if you prefer.
+22/01/15, 9:38 am - John Smith: 10am sounds perfect! Let's do it.
+22/01/15, 9:39 am - Jane Doe: Great! Looking forward to it. 😄
+22/01/15, 9:40 am - John Smith: Me too! Will message closer to the date to confirm details.
+22/01/15, 9:40 am - Jane Doe: Sounds good. Talk to you later!
+22/01/15, 9:41 am - John Smith: null
+22/01/15, 9:42 am - Jane Doe: Btw, did you see the photos from last time? <This message was edited>
