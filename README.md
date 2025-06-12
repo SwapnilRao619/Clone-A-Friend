@@ -31,17 +31,6 @@ This project uses a Large Language Model (LLM) via the Groq API (currently lever
 *   `python-dotenv` for environment variable management
 *   `groq` Python client library
 
-## Project Structure
-
-clone_a_friend/
-├── .env # Stores your GROQ_API_KEY (you create this)
-├── requirements.txt # Python dependencies
-├── chat_parser.py # Logic to parse the chat file
-├── llm_handler.py # Logic to interact with the Groq API
-├── main.py # Main application script
-└── example_chat.txt # Example chat file (or your own)
-
-
 ## Getting Started
 
 ### Prerequisites
@@ -92,7 +81,7 @@ clone_a_friend/
 4.  **Start chatting!** Type your messages and press Enter. To quit, type `quit` or `exit`.
 
 
-## 📝 Key Files Overview
+## Key Files Overview
 
 *   `main.py`: Orchestrates the application flow, handles user input/output, and initializes other components.
 *   `chat_parser.py`: Responsible for reading the chat file, cleaning the data, and extracting messages from the specified friend.
@@ -126,5 +115,3 @@ Contributions are welcome! If you have ideas for improvements or find bugs, plea
 4.  Commit your changes (`git commit -m 'Add some feature'`).
 5.  Push to the branch (`git push origin feature/your-feature-name`).
 6.  Open a Pull Request.
-
----
