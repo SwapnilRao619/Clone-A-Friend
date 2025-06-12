@@ -1,10 +1,10 @@
-# Clone A Friend 🤖💬
+# Clone A Friend
 
 **Clone A Friend** allows you to create a conversational AI that mimics the texting style and persona of a friend, based on an exported chat history text file. Chat with a digital version of someone you miss, or just explore the possibilities of personalized AI!
 
 This project uses a Large Language Model (LLM) via the Groq API (currently leveraging Llama 3) to understand and replicate your friend's communication patterns.
 
-## ✨ Features
+## Features
 
 *   **Chat History Parsing:** Intelligently extracts messages from a specific friend in an exported chat file (e.g., WhatsApp export).
 *   **Persona Emulation:** Uses the friend's messages as style examples to guide the LLM in adopting their tone, vocabulary, emoji usage, and common phrases.
@@ -12,7 +12,7 @@ This project uses a Large Language Model (LLM) via the Groq API (currently lever
 *   **Contextual Conversation:** The clone remembers the recent parts of your current conversation to provide relevant responses.
 *   **Powered by Groq & Llama 3:** Utilizes the speed of Groq and the capabilities of Llama 3 (or other compatible models) for response generation.
 
-## ⚙️ How It Works
+## How It Works
 
 1.  **Input:** You provide an exported chat history file (e.g., `.txt` from WhatsApp) and the exact name of the friend you wish to clone.
 2.  **Parsing:** The `chat_parser.py` script reads the file, filters out system messages, and isolates all messages sent by the specified friend. It also tries to identify the other main chat participant (you).
@@ -23,7 +23,7 @@ This project uses a Large Language Model (LLM) via the Groq API (currently lever
 4.  **LLM Interaction:** Your messages are sent to the Groq API, along with the system prompt and recent conversation history. The LLM generates a response in the style of your friend.
 5.  **Conversation Loop:** The `main.py` script manages the user interface, sending your inputs to the LLM handler and displaying the clone's responses.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 *   Python 3.x
 *   [Groq API](https://groq.com/) for LLM inference
@@ -31,7 +31,7 @@ This project uses a Large Language Model (LLM) via the Groq API (currently lever
 *   `python-dotenv` for environment variable management
 *   `groq` Python client library
 
-## 📂 Project Structure
+## Project Structure
 
 clone_a_friend/
 ├── .env # Stores your GROQ_API_KEY (you create this)
@@ -42,7 +42,7 @@ clone_a_friend/
 └── example_chat.txt # Example chat file (or your own)
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -98,7 +98,7 @@ clone_a_friend/
 *   `chat_parser.py`: Responsible for reading the chat file, cleaning the data, and extracting messages from the specified friend.
 *   `llm_handler.py`: Manages communication with the Groq API, constructs the necessary prompts, and retrieves the LLM's responses.
 
-## 💡 Important Considerations & Limitations
+## Important Considerations & Limitations
 
 *   **LLM Model:** The default model is Llama 3 8B (`llama3-8b-8192`). You can experiment with other models available on Groq (e.g., `llama3-70b-8192` for potentially higher quality but possibly slower responses) by changing `LLM_MODEL` in `llm_handler.py`.
 *   **Context Window:** LLMs have a limited context window. The number of example messages (`MAX_EXAMPLE_MESSAGES`) and conversation history turns (`MAX_CONVERSATION_HISTORY_TURNS`) are capped to prevent exceeding this limit. If you encounter errors, try reducing these values.
@@ -108,7 +108,7 @@ clone_a_friend/
 *   **Groq API Usage:** Be mindful of Groq's API rate limits and usage policies.
 *   **Ethical Considerations:** This tool is intended for personal, experimental, or sentimental use. Please be respectful of privacy and the concept of digital likeness. Always ensure you have the right to use any chat data.
 
-## 🚀 Potential Future Enhancements
+## Potential Future Enhancements
 
 *   Graphical User Interface (GUI).
 *   Support for more chat platforms and export formats.
@@ -116,7 +116,7 @@ clone_a_friend/
 *   Option to save and load "clones."
 *   Fine-tuning (if feasible and appropriate LLMs become available) for deeper persona adoption.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you have ideas for improvements or find bugs, please feel free to:
 
